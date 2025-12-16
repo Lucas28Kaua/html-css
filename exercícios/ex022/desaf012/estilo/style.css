@@ -44,7 +44,8 @@ header>p>a:hover{
 }
 
 main{
-    
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 main>#s1{
     font-family: 'Sriracha';
