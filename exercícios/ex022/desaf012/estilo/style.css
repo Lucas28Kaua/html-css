@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    padding-bottom: 35px;
+}
+
+header>h1{
+    color:white;
+    font-family: 'Passion One';
+    font-weight: bold;
+    text-align: center;
+    font-size: 4em;
+    padding-top:40px;
+    margin:auto;
+
+}
+
+header>h1>span{
+    font-size: 1.5em;
+}
+
+header>p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align:center;
+}
+
+header>p>a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header>p>a:hover{
+    text-decoration: underline;
+}
+
+main{
+    
+}
+main>#s1{
+    font-family: 'Sriracha';
+    text-align:left;
+    padding-top:76px;
+    padding-left:40px;
+    font-size: 1.7em;
+    line-height: 2em;
+}
+
+main>section>#s1>p>#p1{
+    background-color:white;
+}
+main>#s2{
+    position:relative;
+    background-image:url(../imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height:62vh;
+    font-family: 'Sriracha';
+    text-align:left;
+    padding-top:76px;
+    padding-left:40px;
+    font-size: 1.7em;
+    line-height: 2em;
+}
+
+main>#s2>p{
+    background-color: rgba(16, 16, 16, 0.345);
+    padding:5px;
+    display: inline-block;
+    color: white;
+}
+
+
+main>#s3{
+    font-family: 'Sriracha';
+    text-align:left;
+    padding-top:76px;
+    padding-left:40px;
+    font-size: 1.7em;
+    line-height: 2em;
+}
+
+main>#s4{
+    font-family: 'Sriracha';
+    text-align:left;
+    padding-top:76px;
+    padding-left:40px;
+    font-size: 1.7em;
+    line-height: 2em;
+}
+
+main>#s5{
+    position:relative;
+    background-image:url(../imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height:62vh;
+    font-family: 'Sriracha';
+    text-align:left;
+    padding-top:76px;
+    padding-left:40px;
+    font-size: 1.7em;
+    line-height: 2em;
+}
+
+main>#s5>p{
+    background-color: rgba(16, 16, 16, 0.589);
+    padding:5px;
+    display: inline-block;
+    color: white;
+}
+main>#s6{
+    font-family: 'Sriracha';
+    text-align:left;
+    padding-top:76px;
+    padding-left:40px;
+    font-size: 1.7em;
+    line-height: 2em;
+}
+
+main>#s7{
+    font-family: 'Sriracha';
+    text-align:left;
+    padding-top:76px;
+    padding-left:40px;
+    font-size: 1.7em;
+    line-height: 2em;
+}
+
+footer{
+    background-color: black;
+    padding:10px 0px 10px 0px;
+    font-size: 1.2em;
+}
+footer>p{
+    color:white;
+    text-align:center;
+    font-size:verdana;
+}
+
+footer>p>a{
+    color:white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer>p>a:hover{
+    text-decoration: underline;
+}
