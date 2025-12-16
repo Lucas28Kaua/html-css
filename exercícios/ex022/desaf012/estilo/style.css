@@ -44,12 +44,11 @@ header>p>a:hover{
 }
 
 main{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 5vh;
 }
 
 main p{
-    font-size: 4.5vw;
+    padding-bottom: 8vh;
 }
 main>#s1{
     font-family: 'Sriracha';
@@ -61,10 +60,9 @@ main>#s1{
 }
 
 main>#s2{
-    position:relative;
     background-image:url(../imagens/background001.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
     height:62vh;
@@ -103,10 +101,9 @@ main>#s4{
 }
 
 main>#s5{
-    position:relative;
     background-image:url(../imagens/background002.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
     height:62vh;
