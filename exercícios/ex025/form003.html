@@ -7,31 +7,82 @@
 </head>
 <body>
     <h1>Teste de formulário</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
-        <p>
-            <label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome" required minlength="4" maxlength="30" placeholder="Nome completo" autocomplete="name">
-        </p>
-        <p>
-            <label for="imedia">Média</label>
-            <input type="number" name="media" id="imedia" required min="0" step="0.1" max="10" placeholder="0 a 10">
-        </p>
-        <p>
-            <label for="iletivo">Período Letivo:</label>
-            <input type="month" name="letivo" id="iletivo">
-        </p>
-        <p>
-            <label for="iprova">Dia da prova:</label>
-            <input type="date" name="prova" id="iprova">
-        </p>
-        <p>
-            <label for="ihora">Horário da prova:</label>
-            <input type="time" name="hora" id="ihora">
-        </p>
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
+    <form action="cadastro.php" method="POST" autocomplete="on">
+        <fieldset>
+            <legend>Primeiro Form</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required minlength="4" maxlength="30" placeholder="Nome completo" autocomplete="name">
+            </p>
+            <p>
+                <label for="imedia">Média</label>
+                <input type="number" name="media" id="imedia" required min="0" step="0.1" max="10" placeholder="0 a 10">
+            </p>
+            <p>
+                <label for="iletivo">Período Letivo:</label>
+                <input type="month" name="letivo" id="iletivo">
+            </p>
+            <p>
+                <label for="iprova">Dia da prova:</label>
+                <input type="date" name="prova" id="iprova">
+            </p>
+            <p>
+                <label for="ihora">Horário da prova:</label>
+                <input type="time" name="hora" id="ihora">
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Segundo Form</legend>
+            <label for="inum">Telefone:</label>
+            <input type="tel" name="num" id="inum" placeholder="Digite seu Número">
+            <br>
+            <label for="iemail">Email:</label>
+            <input type="email" name="email" id="iemail" placeholder="Digite seu email">
+        </fieldset>
+
+        <fieldset>
+            <legend>Terceito Form</legend>
+            <h3>Times Favoritos</h3>
+            <label for="itime1">Flamengo</label>
+            <input type="checkbox" name="time" id="itime1"><br>
+
+            <label for="itime2">Palmeiras</label>
+            <input type="checkbox" name="time" id="itime2"><br>
+
+            <label for="itime3">Vasco</label>
+            <input type="checkbox" name="time" id="itime3"><br>
+
+            <label for="itime4">Atéticu</label>
+            <input type="checkbox" name="time" id="itime4"><br>
+
+            <br>
+            <br>
+            <br>
+            
+            <label for="GOW">God Of War</label>
+            <input type="radio" name="jogo" id="GOW"><br>
+
+            <label for="MC">Mortal Combat</label>
+            <input type="radio" name="jogo" id="MC"><br>
+
+            <label for="COD">Call Of Duty</label>
+            <input type="radio" name="jogo" id="COD"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Quarto Form</legend>
+              <label for="icor">Cor:</label>
+              <input type="color" name="cor" id="icor" value="#00ff00">
+              <br>
+              <label for="irange">Nível de Satisfação:</label>
+              <input type="range" name="range" id="irange" min="1" max="10" value="1">
+              <br>
+              <label for="ifile">Foto:</label>
+              <input type="file" name="file" id="ifile">
+        </fieldset>
+        <input type="submit" value="Enviar">
+        
     </form>
 </body>
 </html>
